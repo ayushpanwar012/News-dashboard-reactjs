@@ -1,0 +1,180 @@
+/* Container for the progress bar */
+.progress-bar {
+  margin:0;
+  height: 5px; /* Adjust height as needed */
+  background-color: #76c7c0; /* Progress bar color */ 
+  transition: width .5s ease; /* Smooth transition for width changes */
+}
+
+/* Hide the progress bar when progress is 0 */
+.progress-bar.hidden {
+  display: none;
+}
+
+
+  /* WordCloud itself */
+  /* Container for the WordCloud */
+.word-cloud-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  margin: 20px auto;
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Target the SVG element itself */
+.word-cloud-container svg {
+  width: 100%;
+  height: auto;
+}
+
+/* Style individual text elements in the word cloud */
+.word-cloud-container text {
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+
+/* Hover effect for words */
+.word-cloud-container text:hover {
+  fill: #143059; /* Change color on hover */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Optional: Style the background of the SVG */
+.word-cloud-container svg rect {
+  fill: transparent; /* Remove default background */
+}
+  
+  /* Hover effect on words */
+ 
+
+
+/*******************************************************************************************************************************************************/
+/* dashboard/static/css/styles.css */
+.tags-analysis-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ranking-table {
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ranking-table h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.ranking-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.ranking-table th,
+.ranking-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.ranking-table th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+.ranking-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Sidebar.css */
+
+/* Navbar.css */
+.main-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 1rem 2rem; */
+  background-color: #2c3e50;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.nav-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-link {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #34495e;
+}
+
+/* Add this to your main content CSS to account for fixed navbar */
+.main-content {
+  margin-top: 10px; /* Height of navbar + some spacing */
+  
+}  
+/* Add to Navbar styling */
+.main-navbar {
+  z-index: 1000; /* Ensure navbar stays on top */
+  height: 60px; /* Explicit height for calculations */
+}
+
+/* Adjust main content margin */
+.main-content {
+  margin-top: 80px; /* Push content below fixed navbar */
+}
+
+/* Fix progress bar positioning */
+.progress-bar {
+  position: fixed;
+  top: 60px; /* Position below navbar */
+  left: 0;
+  right: 0;
+  z-index: 999; /* Keep below navbar but above content */
+}
+
+/* Existing styles below - keep these unchanged */
+.progress-bar.hidden {
+  display: none;
+}
+
+
+
+/* Rest of your existing CSS... */
