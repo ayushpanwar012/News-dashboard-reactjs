@@ -39,6 +39,8 @@ A **React-based web application** that works as a dashboard to analyze live stre
 ---
 
 ## 🗂️ Folder Structure
+```
+
 ├── .gitignore
 ├── directory_structure.txt
 ├── eslint.config.js
@@ -67,6 +69,7 @@ A **React-based web application** that works as a dashboard to analyze live stre
 ├── TagAnalysis.jsx
 ├── VideoItem.jsx
 └── WordCloud.jsx
+```
 
 ## 🚀 How to Run the Project Locally
 
