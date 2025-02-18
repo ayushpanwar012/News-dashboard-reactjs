@@ -83,8 +83,8 @@ Follow these steps to set up and run the project on your local machine:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/ayushpanwar012/News-dashboard-reactjs
+   cd News-dashboard-reactjs
 
 2. **Install Dependencies:**
 
