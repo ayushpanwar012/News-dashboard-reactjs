@@ -14,6 +14,7 @@
     "@visx/wordcloud": "^3.12.0",
     "axios": "^1.7.9",
     "d3-random": "^3.0.1",
+    "firebase": "^11.3.1",
     "moment-timezone": "^0.5.47",
     "react": "^18.3.1",
     "react-d3-cloud": "^1.0.6",

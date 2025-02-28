@@ -10,7 +10,7 @@ const MainTrending = () => {
   const [channels, setChannels] = useState([]);
   const [selectedChannel, setSelectedChannel] = useState("All channels");
   const [filtervideos, setFilterVideos] = useState([]);
-  const [activetab, setActiveTab] = useState([]);
+  const [activetab, setActiveTab] = useState("trendingWordcloud");
 
   const handleTabChange = (e) => {
     setActiveTab(e);
